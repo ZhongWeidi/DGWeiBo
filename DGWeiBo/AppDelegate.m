@@ -33,6 +33,9 @@
     if (dic) {
         self.wbtoken = dic[@"token"];
         self.wbCurrentUserID = dic[@"userID"];
+    }else{
+        self.wbtoken = @"";
+        self.wbCurrentUserID  =@"";
     }
     
     

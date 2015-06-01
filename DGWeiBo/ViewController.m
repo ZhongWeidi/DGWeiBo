@@ -37,6 +37,7 @@
     
     [_weiboTableView setPDelegate:self];//设置下拉刷新的委托对象
     [_weiboTableView reloadDataFirst];//第一次刷新数据
+    
 }
 
 
